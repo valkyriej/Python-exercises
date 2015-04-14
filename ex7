@@ -1,0 +1,39 @@
+# print the string 
+print "Mary had a little lamb."
+# print the string and variable yay
+print "Its fleece was white as %s." % 'snow'
+# print the string 
+print "And everywhere that Mary went."
+# print the string 
+print "." * 10 # what'd that do? -- placed 10 periods
+# defining variable 
+end1 = "C"
+# defining variable 
+end2 = "h"
+# defining variable 
+end3 = "e"
+# defining variable 
+end4 = "e"
+# defining variable 
+end5 = "s"
+# defining variable 
+end6 = "e"
+# defining variable 
+end7 = "B"
+# defining variable 
+end8 = "u"
+# defining variable 
+end9 = "r"
+# defining variable 
+end10 = "g"
+# defining variable 
+end11 = "e"
+# defining variable 
+end12 = "r"
+
+# watch that comma at the end.  try removing it to see what happens
+# removing the comma stacks them instead of them being on the same line
+# adds the defined variables together -- cheese -- and prints comma brings them to the same line
+print end1 + end2 + end3 + end4 + end5 +end6,
+# adds the defined variables -- burger 
+print end7 + end8 + end9 + end10 + end11 +end12
