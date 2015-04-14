@@ -1,0 +1,17 @@
+# formatter %r = print no matter what, defines the variables
+formatter = "%r %r %r %r"
+# prints the defined variables
+print formatter % (1,2,3,4)
+# prints the defined variables 
+print formatter % ("one", "two", "three", "four")
+# prints the defined variables 
+print formatter % (True, False, False, True)
+# prints the 4 defined variables for each use of formatter 
+print formatter % (formatter, formatter, formatter, formatter)
+# prints the 4 defined variables 
+print formatter % (
+	"I had this thing.",
+	"That you could type up right.", 
+	"But it didn't sing.",
+	"So I said goodnight."
+)
