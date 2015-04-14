@@ -1,0 +1,28 @@
+# defining variable x and using a format string 
+x = "There are %d types of people." % 10
+# defining variable binary 
+binary = "binary"
+# defining variable do_not 
+do_not = "don't"
+# defining variable y and using a format string 
+y = "Those who know %s and those who %s." % (binary, do_not)
+# yay print the variable 
+print x
+# yay print the variable 
+print y
+# yay print the format string 
+print "I said: %r." % x
+# yay print the format string
+print "I also said: '%s'." % y
+# more variable defining 
+hilarious = False
+# more variable defining 
+joke_evaluation = "Isn't that joke so funny?! %r"
+# yay print the format string 
+print joke_evaluation % hilarious
+# variable definition 
+w = "This is the left side of ..."
+# variable definition 
+e = "a string with a right side."
+# yay print the format string 
+print w + e
