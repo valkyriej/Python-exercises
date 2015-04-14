@@ -1,4 +1,4 @@
-# formatter %r = print no matter what, defines the variables
+# formatter %r = print no matter what, used for debugging, define variables
 formatter = "%r %r %r %r"
 # prints the defined variables
 print formatter % (1,2,3,4)
